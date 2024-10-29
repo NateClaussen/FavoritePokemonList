@@ -194,6 +194,7 @@ function seedData() {
 			"It shelters itself in its shell then strikes back with spouts of water at every opportunity"
 		)
 	);
+	window.scrollTo(0, document.body.scrollHeight);
 }
 
 window.onload = function () {
