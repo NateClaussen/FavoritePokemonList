@@ -1,4 +1,5 @@
 const pokeTable = document.createElement("table");
+const pokeList = [];
 
 class Pokemon {
 	constructor(name, type, weight, height, nickname, description) {
@@ -244,6 +245,7 @@ function addRow(p) {
 	td.textContent = p.description;
 	tr.appendChild(td);
 	pokeTable.appendChild(tr);
+	pokeList.push(p);
 }
 
 function createTable() {
