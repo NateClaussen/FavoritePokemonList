@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="site.js" defer></script>
+	</head>
+	<body>
+		<form id="pokeForm">
+			<label for="pName">Pokemon Name:</label><br />
+			<input type="text" id="pName" name="pName" /><br />
+			<label for="pType">Pokemon Type:</label><br />
+			<select name="pType" id="pType">
+				<option value="bug">Bug</option>
+				<option value="dark">Dark</option>
+				<option value="dragon">Dragon</option>
+				<option value="electric">Electric</option>
+				<option value="fairy">Fairy</option>
+				<option value="fighting">Fighting</option>
+				<option value="fire">Fire</option>
+				<option value="flying">Flying</option>
+				<option value="ghost">Ghost</option>
+				<option value="grass">Grass</option>
+				<option value="ground">Ground</option>
+				<option value="ice">Ice</option>
+				<option value="normal">Normal</option>
+				<option value="poison">Poison</option>
+				<option value="psychic">Psychic</option>
+				<option value="rock">Rock</option>
+				<option value="steel">Steel</option>
+				<option value="water">Water</option></select
+			><br />
+			<label for="pWeight">Weight:</label><br />
+			<input type="number" step=".1" id="pWeight" name="pWeight" /><br />
+			<label for="pHeight">Height:</label><br />
+			<input type="text" id="pHeight" name="pHeight" /><br />
+			<label for="pNickName">Nickname:</label><br />
+			<input type="text" id="pNickName" name="pNickName" /><br />
+			<label for="pDesc">Description:</label><br />
+			<input type="text" id="pDesc" name="pDesc" /><br /><br />
+			<input type="button" id="addButton" value="Add Pokemon" />
+			<input type="button" id="seedButton" value="Add Sample Data" />
+			<br />
+		</form>
+		<br />
+		<div id="PokemonTable">
+			<!-- <table>
+				<tr>
+					<th></th>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Weight</th>
+					<th>Height</th>
+					<th>NickName</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td><img src="images/BugTypeLogo.png" /></td>
+					<td>Bug</td>
+					<td>Bug</td>
+					<td>49 lbs</td>
+					<td>50.2</td>
+					<td>BUGS</td>
+					<td>It is a big bug</td>
+				</tr>
+			</table> -->
+		</div>
+	</body>
+</html>
